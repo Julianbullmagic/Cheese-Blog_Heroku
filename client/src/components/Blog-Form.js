@@ -24,7 +24,7 @@ const priceValue = React.useRef('')
        console.log(newPost)
 setSearching(true)
 
-         fetch("http://localhost:5000/posts/add", {
+         fetch("https://cheese-blog.herokuapp.com/posts/add", {
              method: "POST",
              body: JSON.stringify(newPost),
              headers: {
