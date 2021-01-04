@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/-Cheese-Blog/static/css/main.a5eeb84d.chunk.css",
+    "main.js": "/-Cheese-Blog/static/js/main.31337d58.chunk.js",
+    "main.js.map": "/-Cheese-Blog/static/js/main.31337d58.chunk.js.map",
+    "runtime-main.js": "/-Cheese-Blog/static/js/runtime-main.bf063f4a.js",
+    "runtime-main.js.map": "/-Cheese-Blog/static/js/runtime-main.bf063f4a.js.map",
+    "static/js/2.42bc0e71.chunk.js": "/-Cheese-Blog/static/js/2.42bc0e71.chunk.js",
+    "static/js/2.42bc0e71.chunk.js.map": "/-Cheese-Blog/static/js/2.42bc0e71.chunk.js.map",
+    "index.html": "/-Cheese-Blog/index.html",
+    "precache-manifest.79220d5c818293a63b1ce9d40e4820e1.js": "/-Cheese-Blog/precache-manifest.79220d5c818293a63b1ce9d40e4820e1.js",
+    "service-worker.js": "/-Cheese-Blog/service-worker.js",
+    "static/css/main.a5eeb84d.chunk.css.map": "/-Cheese-Blog/static/css/main.a5eeb84d.chunk.css.map",
+    "static/js/2.42bc0e71.chunk.js.LICENSE.txt": "/-Cheese-Blog/static/js/2.42bc0e71.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/-Cheese-Blog/static/media/logo.9a3d2645.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf063f4a.js",
+    "static/js/2.42bc0e71.chunk.js",
+    "static/css/main.a5eeb84d.chunk.css",
+    "static/js/main.31337d58.chunk.js"
+  ]
+}
