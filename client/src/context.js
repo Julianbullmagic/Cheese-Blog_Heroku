@@ -50,7 +50,7 @@ const AppProvider = ({ children }) => {
     }
     const fetchData = async () => {
       dispatch({ type: 'LOADING' })
-      const response = await fetch(url)
+      const response = await fetch('https://course-api.com/react-useReducer-cart-project')
       const cart = await response.json()
       dispatch({ type: 'DISPLAY_ITEMS', payload: cart })
     }
