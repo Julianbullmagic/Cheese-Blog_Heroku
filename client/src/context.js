@@ -1,6 +1,8 @@
 import React, { useState, useContext, useEffect, useCallback, useReducer } from 'react'
 import reducer from './reducer'
 import Values from 'values.js'
+import data from './data';
+import cartItems from './data2';
 const AppContext = React.createContext()
 var posties
 fetchCheese()
