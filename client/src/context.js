@@ -1,7 +1,7 @@
-import React, { useState, useContext, useEffect, useCallback, useReducer } from 'react'
+import React, { useState, useContext, useEffect, useReducer } from 'react'
 import reducer from './reducer'
 import Values from 'values.js'
-import data from './data';
+
 import cartItems from './data2';
 const AppContext = React.createContext()
 var posties
@@ -74,7 +74,6 @@ const AppProvider = ({ children }) => {
   const [cheeses, setCheeses]=useState([])
   const [backupCheeses, setBackupCheeses]=useState([])
   const[searching,setSearching]=useState(false)
-  const[thing,setThing]=useState(false)
   const[addCheese,setAddCheese]=useState(false)
   const [color, setColor] = useState('')
   const [error, setError] = useState(false)
@@ -103,10 +102,9 @@ const AppProvider = ({ children }) => {
        ||item.category.toLowerCase()===searchTerm.toLowerCase()
        ||item.text.toLowerCase().includes(searchTerm)
    )}
-   console.log(filteredCheese)
    setCheeses(filteredCheese)
    setSearching(false)
-}, [searchTerm])
+}, [searchTerm,backupCheese,searching])
 
 
 
