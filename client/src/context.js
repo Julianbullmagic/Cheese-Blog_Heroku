@@ -104,7 +104,7 @@ const AppProvider = ({ children }) => {
    )}
    setCheeses(filteredCheese)
    setSearching(false)
-}, [searchTerm,backupCheese,searching])
+}, [searchTerm])
 
 
 
